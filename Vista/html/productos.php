@@ -87,7 +87,8 @@
                         <button type="button" id="btnagregarprod" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Newprod">
                             Nuevo Producto
                         </button>
-                    </div>
+                        <a href="index.php?accion=documentpdf"><button id="btnpdf"><img id="imgpdf" src="Vista/img/pdflogo.png" width="30" height="30"></button></a>
+                    </div>                    
                     <div class="mb-3 bg-light">
                         <!-- Tabla de pedidos -->
                         <table id="tabla_productos" class="table table-bordered">
@@ -136,7 +137,6 @@
                                 ?>
                             </tbody>
                         </table>
-                        <a href="index.php?accion=documentpdf"><button><img src="Vista/img/pdflogo.png" width="30" height="30"></button></a>
                     </div>
                 </div>
             </div>

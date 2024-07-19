@@ -281,6 +281,20 @@ h1{
     color: white;
 }
 
+#btnpdf{
+    border: none;
+    background-color: white;
+    width: 6%;
+    height: 6%;    
+}
+#imgpdf{
+    margin-top: 1%;
+    border-radius: 10px;
+}
+#btnpdf:hover{
+    background-color: #707379;
+    border-radius: 20px;
+}
 /*** Service ***/
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
